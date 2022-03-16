@@ -57,6 +57,9 @@ a {
 		position: relative;
 		max-height: 1300px;
 	}
+	div.nav_mini {
+		display: none;
+	}
 
 	header {
 		width: 100%;
