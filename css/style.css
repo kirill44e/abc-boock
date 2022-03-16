@@ -61,6 +61,10 @@ a {
 		display: none;
 	}
 
+	div.nav_mini {
+		display: none;
+	}
+
 	header {
 		width: 100%;
 		height: 70px;
