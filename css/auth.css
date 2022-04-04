@@ -112,7 +112,8 @@ ul.ul1 a {
 
 	input.input1 {
 		width: 100%;
-		height: 80px;
+		max-width: 400px;
+		height: 50px;
 		background: #FFFFFF;
 		border: 3px solid #8B8AB7;
 		border-radius: 15px;
@@ -125,14 +126,15 @@ ul.ul1 a {
 
 	input.input2 {
 		border: none;
-		width: 90%;
-		height: 70px;
+		width: 60%;
+		max-width: 200px;
+		height: 35px;
 		background: #2C59FA;
 		border-radius: 15px;
 		font-weight: 500;
-		font-size: 25px;
+		font-size: 18px;
 		color: white;
-		padding: 15px;
+		padding: 5px;
 		text-align: center;
 	}
 }
