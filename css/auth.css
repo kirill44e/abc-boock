@@ -43,6 +43,16 @@ ul.ul1 a {
 }
 
 @media (min-width: 768px) and (max-width: 2000px) {
+
+	a.a2:visited {
+		color: lightblue;
+	}
+
+	a.a2 {
+		font-size: 23px;
+		font-weight: 400;
+	}
+
 	form {
 		width: 500px;
 		text-align: center;
@@ -56,7 +66,7 @@ ul.ul1 a {
 
 	input.input1 {
 		width: 500px;
-		height: 80px;
+		height: 60px;
 		background: #FFFFFF;
 		border: 3px solid #8B8AB7;
 		border-radius: 15px;
@@ -70,18 +80,27 @@ ul.ul1 a {
 	input.input2 {
 		border: none;
 		width: 400px;
-		height: 70px;
+		height: 50px;
 		background: #2C59FA;
 		border-radius: 15px;
 		font-weight: 500;
 		font-size: 25px;
 		color: white;
-		padding: 15px;
+		padding: 10px;
 		text-align: center;
 	}
 }
 
 @media (min-width: 360px) and (max-width: 767px) {
+
+	a.a2:visited {
+		color: lightblue;
+	}
+
+	a.a2 {
+		font-size: 18px;
+		font-weight: 400;
+	}
 
 	ul.ul1 {
 		list-style-type: none;
@@ -94,6 +113,7 @@ ul.ul1 a {
 		float: left;
 		margin-right: 25px;
 	}
+
 	ul.ul1 a {
 		font-size: 20px;
 		color: #FFF4F4;
