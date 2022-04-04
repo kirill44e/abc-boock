@@ -1,1 +1,1 @@
-# izhtici
+# courses
