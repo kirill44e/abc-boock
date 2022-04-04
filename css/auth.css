@@ -83,6 +83,17 @@ ul.ul1 a {
 
 @media (min-width: 360px) and (max-width: 767px) {
 
+	ul.ul1 {
+		list-style-type: none;
+		height: 80px;
+		margin: 0px;
+		float: center;
+	}
+
+	ul.ul1 li {
+		float: left;
+		margin-right: 25px;
+	}
 	ul.ul1 a {
 		font-size: 20px;
 		color: #FFF4F4;
